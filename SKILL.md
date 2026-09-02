@@ -7,7 +7,7 @@ example:  deploy latest github repo of 'webapp'; prompt openclaw with "dcc deplo
 ---
 
 # DCC Docker Container Control
-
+This is a workaround for CI.
 Use the bundled `scripts/docker-container-control` on the target Docker server to discover and operate Compose deployments stored under `/opt`.
 
 ## Required target server

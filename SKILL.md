@@ -2,7 +2,7 @@
 name: dcc-docker-container-control
 description: Very fast Docker Compose + git latest deployment.
 usage: dcc \[list, status, dry-run, deploy, restart, or recreate\] {appDockerName}.
-example:  obtain latest and run webapp, prompt openclaw "dcc deploy webapp"
+example:  deploy latest github repo of 'webapp'; prompt openclaw with "dcc deploy webapp"
 
 ---
 

@@ -1,6 +1,9 @@
 ---
 name: dcc-docker-container-control
-description: Operate Docker Compose deployments on a known remote Docker server with docker-container-control. Use for dcc list, status, dry-run, deploy, restart, or recreate requests.
+description: Very fast Docker Compose + git latest deployment.  To use type: dcc [list, status, dry-run, deploy, restart, or recreate] {appDockerName}.
+
+Example to obtain latest and run "webapp":
+  dcc deploy webapp
 ---
 
 # DCC Docker Container Control

@@ -1,11 +1,12 @@
 ---
 name: dcc-docker-container-control
-description: Very fast Docker Compose + git latest deployment.  To use type: dcc [list, status, dry-run, deploy, restart, or recreate] {appDockerName}.
+description: Very fast Docker Compose + git latest deployment.  To use type: dcc \[list, status, dry-run, deploy, restart, or recreate\] {appDockerName}.
+example:  obtain latest and run "webapp":
+              dcc deploy webapp
+
 ---
 
 # DCC Docker Container Control
-#example:  obtain latest and run "webapp":
-#  dcc deploy webapp
 
 Use the bundled `scripts/docker-container-control` on the target Docker server to discover and operate Compose deployments stored under `/opt`.
 

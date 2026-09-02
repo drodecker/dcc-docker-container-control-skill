@@ -1,5 +1,0 @@
-interface:
-  display_name: "DCC Docker Container Control"
-  short_description: "Safely operate remote Docker Compose deployments"
-  default_prompt: "Use dcc to inspect or operate a deployment on a known Docker server."
-
